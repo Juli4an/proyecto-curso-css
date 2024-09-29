@@ -1,0 +1,40 @@
+.contenedor{
+    background-color: #e2dcdc;
+    border-radius: 10px;
+    margin: 10px 0;
+    padding: 20px;
+    width: 50%;
+    position: relative;
+    left: 25%;
+}   
+input[type="text"],
+input[type="email"],
+select,
+textarea{
+    width: 100%;
+    padding: 10px;
+    width: 8px 0;
+    border: 1px solid rgb(167, 136, 136);
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+input[type="submit"]{
+    width: 100%;
+    font-size: 15px;
+    background-color: #5d948e;
+    color: #ffffff;
+    padding: 15px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    position: relative;
+}
+textarea:focus, input:focus{
+    background-color: rgb(134, 210, 219);
+    
+}
+input[type="submit"]:hover{
+    background-color: rgb(26, 182, 199);
+    color: #5A00FF;
+}
